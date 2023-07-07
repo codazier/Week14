@@ -5,7 +5,7 @@ import {useState} from 'react'
 export default function ReviewForm () {
 
   const [review, setReview] = React.useState('');
-  const [reviews, setReviews] = useState([]);
+  const [reviews, setReviews] = React.useState([]);
 
  
 
@@ -39,7 +39,7 @@ export default function ReviewForm () {
         
        
     <button onClick={handleClick}>Submit</button>
-    </div>
+     </div>
       </div>
       <div className="review-container">
         <h3>Reviews:</h3>

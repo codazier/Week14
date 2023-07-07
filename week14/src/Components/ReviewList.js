@@ -8,6 +8,9 @@ export default function ReviewList() {
 
     
     return (
+        <>
         <h3>Reviews</h3>
+        <Reviews />
+        </>
     )
 }

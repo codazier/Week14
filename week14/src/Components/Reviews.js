@@ -1,30 +1,35 @@
-import React from 'react'   
+import React from 'react'  
+
 import ReviewForm from './ReviewForm'
 
 export default function Reviews() {
 
 
-   // const [review, setReview] = React.useState('');
-   // const [reviews, setReviews] = useState([]);
+    //const [review, setReview] = React.useState('');
+    //const [reviews, setReviews] = React.useState([]);
   
    
   
-     // function addText() {
-         // setReview(prevForm => prevForm+1)
-     // }
+ 
   
-     //function handleClick() {
-      //if (review.trim() !== '') {
-         // setReviews([...reviews, review]);
-        //  setReview('');
-      //  }
-      
- // }
+     
 
 
 
     return (
+        <div className="card w-75">
+        <div className="card-header bg-primary text-white">
+         
         <h3>Reviews</h3>
+       
+     
+ 
+      
+      
+    </div>
+    </div>
+   
+      
 
         
     )

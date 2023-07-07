@@ -1,7 +1,4 @@
 //import React from 'react'
-//i//mport MovieList from 'MovieList'
-
-import React from 'react'
 
 export default function Movie(props) {
    
@@ -10,26 +7,28 @@ export default function Movie(props) {
            <div className="card-header bg-primary text-white">
                 
                  <div className="contact-card">
-                
+
                  <h3>{props.title}</h3>
                 <div className="info-group">
-                    <img src={props.image} />
+                    <img src={props.image} alt="" />
                     <p>{props.synopsis}</p>
                      <p>{props.date}</p>
                      <p>{props.director}</p>
                      <p>{props.starring}</p>
                
+
                
                
                
                
                
-                </div>
+                
 
                 
             
              </div>
             </div> 
+        </div>
         </div>
 
 
@@ -44,3 +43,5 @@ export default function Movie(props) {
         
     )
 }
+
+
